@@ -1,0 +1,70 @@
+.seamless {
+    margin: 0 auto;
+    margin-top: 63px;
+    max-width: 1440px;
+    min-height: 388px;
+
+    .seamless__wrapper {
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+    }
+
+    .seamless_cards {
+        max-width: 1280px;
+        min-height: 218px;
+        border-radius: 16px;
+        background: #FCFCFD;
+        border: 1px solid var(--second-c);
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        gap: 16px;
+        padding: 16px;
+    }
+
+    .seamless__card {
+        width: 252px;
+        height: 138px;
+        border-radius: 14px;
+        padding: 24px;
+        background: #FFFFFF;
+        border: 1px solid var(--navbar-main-color);
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .card__number {
+        width: 74px;
+        height: 44px;
+        font-family: Manrope;
+        font-size: 60px;
+        font-weight: 600;
+        text-align: left;
+        color: #E4E4E7;
+    }
+
+    .seamless__card__content {
+        display: flex;
+        flex-direction: column;
+        gap: 6px;
+    }
+
+    .seamless__card__title {
+        font-family: Manrope;
+        font-size: 18px;
+        font-weight: 600;
+        line-height: 27px;
+        text-align: left;
+        color: #333333;
+    }
+
+    .seamless__card__text {
+        font-family: Manrope;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 21px;
+        text-align: left;
+        color: #656567;
+    }
+}

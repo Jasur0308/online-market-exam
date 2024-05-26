@@ -1,0 +1,315 @@
+@media screen and (max-width: 1400px) {
+    .container {
+        padding: 0 70px;
+    }
+
+    .fashion {
+        .fashion__cards {
+            margin: 0 auto;
+            grid-template-columns: 1fr 1fr 1fr;
+        }
+    }
+
+    .seamless {
+        .seamless_cards {
+            grid-template-columns: 1fr 1fr 1fr;
+        }
+    }
+
+    .footer {
+        .footer__right {
+            gap: 30px;
+        }
+
+        .footer__lists {
+            max-width: 180px;
+        }
+    }
+
+    .texts {
+        max-width: 900px;
+    }
+}
+
+@media screen and (max-width: 1300px) {
+    .footer {
+        .footer__wrapper {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+        }
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .content {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .container {
+        padding: 0 50px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .hero {
+        .hero__wrapper {
+            flex-direction: column;
+        }
+    }
+
+    .fashion {
+        .fashion__cards {
+            margin: 0 auto;
+            grid-template-columns: 1fr 1fr;
+        }
+    }
+
+    .seamless {
+        .seamless_cards {
+            margin: 0 auto;
+            grid-template-columns: 1fr 1fr;
+        }
+    }
+
+    .title {
+        font-size: 32px;
+    }
+}
+
+@media screen and (max-width: 976px) {
+    .fashion {
+        .fashion__cards {
+            margin: 0 auto;
+        }
+    }
+    .experience {
+        .experience__cards {
+            grid-template-columns: 1fr 1fr;
+        }
+    }
+
+    .love {
+        .love__cards {
+            grid-template-columns: 1fr 1fr;
+        }
+    }
+
+    .footer {
+        .footer__right {
+            padding: 30px 0 0 30px;
+        }
+
+        .footer__bottom__contacts {
+            display: none;
+        }
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .container {
+        padding: 0 30px;
+    }
+
+    .navbar {
+        .navbar__links {
+            display: none;
+        }
+
+        .navbar__contact {
+            display: none;
+        }
+
+        .hamburger__menu {
+            display: block;
+        }
+    }
+
+    .hero {
+        margin-top: 50px;
+        .hero__title {
+            font-size: 28px;
+            line-height: 38px;
+        }
+
+        .hero__description {
+            font-size: 14px;
+            line-height: 21px;
+        }
+
+        .hero__cards {
+            max-width: 358px;
+            margin: 0 auto;
+            margin-top: 40px;
+        }
+
+        .hero__card {
+            max-width: 164px;
+        }
+
+        .hero__card__title {
+            font-size: 20px;
+            line-height: 28px;
+        }
+
+        .hero__card__text {
+            font-size: 14px;
+            line-height: 21px;
+        }
+
+        .hero__image {
+            display: none;
+        }
+
+        .hero__mobile {
+            display: block;
+        }
+    }
+
+    .title {
+        font-size: 28px;
+        line-height: 38px;
+    }
+
+    .description {
+        font-size: 14px;
+        line-height: 21px;
+    }
+
+    .fashion {
+        margin-top: 50px;
+        .fashion__cards {
+            margin: 0 auto;
+            grid-template-columns: 1fr;
+        }
+    }
+
+    .experience {
+        margin-top: 50px;
+        .experience__cards {
+            margin: 0 auto;
+            grid-template-columns: 1fr;
+        }
+    }
+
+    .love {
+        margin-top: 50px;
+        .love__cards {
+            margin: 0 auto;
+            grid-template-columns: 1fr;
+        }
+    }
+
+    .questions {
+        margin-top: 50px;
+        .questions__cards {
+            grid-template-columns: 1fr;
+        }
+    }
+
+    .seamless {
+        margin-top: 50px;
+        .seamless_cards {
+            grid-template-columns: 1fr;
+        }
+    }
+
+    .footer {
+        margin-top: 50px;
+        .footer__main {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .footer__left {
+            padding: 40px 40px 0 40px;
+        }
+
+        .footer__bottom__contacts__1 {
+            display: block;
+            display: flex;
+            gap: 16px;
+        }
+
+        .footer__list {
+            display: none;
+        }
+
+        .footer__lists {
+            display: none;
+        }
+
+        .footer__lists__home {
+            display: block;
+        }
+
+        .footer__right {
+            display: flex;
+            gap: 24px;
+            border: none;
+            padding: 30px;
+        }
+
+        .footer__lists-1 {
+            display: none;
+        } 
+
+        .footer__lists__products {
+            display: block;
+        }
+
+        .footer__lists__conact {
+            display: block;
+        }
+
+        .footer__bottom {
+            flex-direction: column;
+            gap: 10px;
+        }
+
+        .footer__bottom__links {
+            flex-direction: column;
+            align-items: center;
+        }
+    }
+}
+
+@media screen and (max-width: 440px) {
+    .content {
+        display: flex;
+        align-items: flex-start;
+    }
+
+    .footer {
+        .footer__left {
+            padding: 10px;
+        }
+
+        .footer__bottom {
+            padding: 20px 50px;
+        }
+    }
+
+    .seamless {
+        .seamless__card {
+            max-width: 338px;
+            height: 94px;
+            display: flex;
+            flex-direction: row;
+            gap: 20px;
+        }
+
+        .card__number {
+            font-size: 50px;
+            line-height: 75px;
+        }
+
+        .seamless__card__title {
+            font-size: 16px;
+            line-height: 24px;
+        }
+    }
+}

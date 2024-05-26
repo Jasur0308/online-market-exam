@@ -1,0 +1,72 @@
+.container {
+    margin: 0 auto;
+    padding: 0 82px;
+    max-width: 1276px;
+    // background-color: green;
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.texts {
+    display: flex;
+    flex-direction: column;
+    max-width: 976px;
+    min-height: 120px;
+    gap: 20px;
+}
+
+.title {
+    text-transform: uppercase;
+    font-family: Manrope;
+    font-size: 38px;
+    font-weight: 600;
+    line-height: 52px;
+    text-align: left;
+    color: #1A1A1A;
+}
+
+.description {
+    font-family: Manrope;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    color: #656567;
+}
+
+.link {
+    text-transform: capitalize;
+    width: 156px;
+    height: 50px;
+    border-radius: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #FFD400;
+    font-family: Manrope;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 21px;
+    color: #262626;
+}
+
+.link:hover {
+    border: 0.5px solid #FFD400;
+    background-color: #FFFFFF;
+}
+
+button {
+    cursor: pointer;
+}
+
+button:active {
+    transform: scale(0.9);
+}
+
+marquee {
+    color: red;
+}

@@ -1,0 +1,197 @@
+.footer {
+    margin: 0 auto;
+    max-width: 1440px;
+    min-height: 365px;
+    margin-top: 60px;
+    border-width: 1px, 0px, 1px, 0px;
+    border-style: solid;
+    border-color: var(--navbar-main-color);
+    
+    .footer__wrapper {
+        min-height: 134px;
+        display: flex;
+    }
+
+    .footer__left {
+        max-width: 355px;
+        min-height: 134px;
+        display: flex;
+        flex-direction: column;
+        gap: 24px;
+        padding: 80px 80px 0 0;
+    }
+
+    .footer__logo__image {
+        width: 60px;
+        height: 60px;
+    }
+
+    .footer__contact {
+        max-width: 356px;
+        min-height: 50px;
+        display: flex;
+        align-items: center;
+        gap: 8px;
+    }
+
+    .footer__contact__text {
+        max-width: 204px;
+        min-height: 22px;
+        padding: 14px 26px;
+        border-radius: 32px;
+        background: #FCFCFD;
+        border: 1px solid var(--navbar-main-color);
+    }
+
+    ::placeholder {
+        text-transform: capitalize;
+        font-family: Manrope;
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 21px;
+        text-align: left;
+        color: #98989A;
+    }
+
+    .footer__button {
+        max-width: 116px;
+        min-height: 50px;
+        border-radius: 32px;
+        padding: 14px 24px;
+        background: var(--second-c);
+    }
+
+    .footer__button > span {
+        font-family: Manrope;
+        font-size: 14px;
+        font-weight: 600;
+        line-height: 21px;
+        text-align: left;
+        color: #262626;
+    }
+
+    .footer__right {
+        max-width: 840px;
+        padding: 60px 0 60px 60px;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        gap: 40px;
+        border-left: 1px solid var(--navbar-main-color);
+    }
+
+    .footer__lists {
+        width: 196px;
+        min-height: 174px;
+        display: flex;
+        flex-direction: column;
+        gap: 24px;
+    }
+
+    .footer__lists__title {
+        font-family: Manrope;
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 23px;
+        letter-spacing: -0.03em;
+        text-align: left;
+        color: #262626;
+    }
+
+    .footer__list {
+        display: flex;
+        flex-direction: column;
+        gap: 14px;
+    }
+
+    .footer__item__link {
+        font-family: Manrope;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 21px;
+        letter-spacing: -0.03em;
+        text-align: left;
+        color: #656567;
+        text-transform: capitalize;
+    }
+
+    .footer__item__link:hover {
+        color: var(--main-c);
+    }
+
+    .footer__lists-1 {
+        max-width: 74px;
+        min-height: 138px;
+        display: flex;
+        flex-direction: column;
+        gap: 24px;
+    }
+
+    .footer__lists__home {
+        display: none;
+    }
+
+    .footer__lists__products {
+        display: none;
+    }
+
+    .footer__lists__conact {
+        display: none;
+    }
+
+    .footer__bottom {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 21px 80px;
+        border: 1px solid var(--navbar-main-color);
+    }
+
+    .footer__bottom__links {
+        display: flex;
+        gap: 40px;
+    }
+
+    .footer__bottom__link {
+        font-family: Manrope;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 18px;
+        letter-spacing: -0.03em;
+        text-align: left;
+        color: #98989A;
+    }
+
+    .footer__bottom__link:hover {
+        color: var(--main-c);
+    }
+
+    .footer__bottom__contacts {
+        display: flex;
+        gap: 16px;
+    }
+
+    .footer__bottom__contacts__1{
+        display: none;
+    }
+    
+    .footer__bottom__contact {
+        width: 16px;
+        height: 16px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 100px;
+        padding: 10px;
+        background: #262626;
+    }
+
+    .footer__bottom__link__2 {
+        font-family: Manrope;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 18px;
+        letter-spacing: -0.03em;
+        text-align: left;
+        color: #656567;
+    }
+}
